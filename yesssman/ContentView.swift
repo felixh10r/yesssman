@@ -9,8 +9,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var resource = YesssResource()
+
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            if resource.data != nil {
+                Text("\(resource.data!.free) / \(resource.data!.total)")
+            }
+        }
+        .frame(
+            minWidth: 0,
+            maxWidth: .infinity,
+            minHeight: 0,
+            maxHeight: .infinity,
+            alignment: .center
+        )
+        .background(
+            Color("primary")
+        )
+        .edgesIgnoringSafeArea(.all)
     }
 }
 

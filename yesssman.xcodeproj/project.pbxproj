@@ -3,19 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B56586E2E9D644B521B935B /* Pods_yessman_today.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822AD846DDE200D7DB779077 /* Pods_yessman_today.framework */; };
+		7253BD73DF41B3FFADDFEE5C /* Pods_yesssman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDB08D4BE8F2620AB8A2CF7 /* Pods_yesssman.framework */; };
 		DC0DF45C23AE27D8003B0E5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0DF45B23AE27D8003B0E5B /* AppDelegate.swift */; };
 		DC0DF45E23AE27D8003B0E5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0DF45D23AE27D8003B0E5B /* SceneDelegate.swift */; };
 		DC0DF46023AE27D8003B0E5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0DF45F23AE27D8003B0E5B /* ContentView.swift */; };
 		DC0DF46223AE27D9003B0E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0DF46123AE27D9003B0E5B /* Assets.xcassets */; };
 		DC0DF46523AE27D9003B0E5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0DF46423AE27D9003B0E5B /* Preview Assets.xcassets */; };
 		DC0DF46823AE27D9003B0E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0DF46623AE27D9003B0E5B /* LaunchScreen.storyboard */; };
+		DC0DF47623AE2805003B0E5B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0DF47523AE2805003B0E5B /* NotificationCenter.framework */; };
+		DC0DF47923AE2805003B0E5B /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0DF47823AE2805003B0E5B /* TodayViewController.swift */; };
+		DC0DF47C23AE2805003B0E5B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0DF47A23AE2805003B0E5B /* MainInterface.storyboard */; };
+		DC0DF48023AE2805003B0E5B /* yessman-today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC0DF47323AE2805003B0E5B /* yessman-today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DC13B4D623AE29960034F4AF /* YesssService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC13B4D523AE29960034F4AF /* YesssService.swift */; };
+		DC13B4D723AE29C00034F4AF /* YesssService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC13B4D523AE29960034F4AF /* YesssService.swift */; };
+		DC13B4D923AE35520034F4AF /* YesssResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC13B4D823AE35520034F4AF /* YesssResource.swift */; };
+		DC13B4DB23AE68DA0034F4AF /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC13B4DA23AE68DA0034F4AF /* NSLayoutConstraint+Extensions.swift */; };
+		DC13B4DD23AE74B60034F4AF /* Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC13B4DC23AE74B60034F4AF /* Credentials.plist */; };
+		DC13B4DE23AE74B60034F4AF /* Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC13B4DC23AE74B60034F4AF /* Credentials.plist */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DC0DF47E23AE2805003B0E5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC0DF45023AE27D8003B0E5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC0DF47223AE2805003B0E5B;
+			remoteInfo = "yessman-today";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC0DF48423AE2805003B0E5B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DC0DF48023AE2805003B0E5B /* yessman-today.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		17F4A2A4D9092F43324C0EAC /* Pods-yesssman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yesssman.release.xcconfig"; path = "Target Support Files/Pods-yesssman/Pods-yesssman.release.xcconfig"; sourceTree = "<group>"; };
+		397ECD5EFAD5D8B32DF087E8 /* Pods-yessman-today.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yessman-today.debug.xcconfig"; path = "Target Support Files/Pods-yessman-today/Pods-yessman-today.debug.xcconfig"; sourceTree = "<group>"; };
+		822AD846DDE200D7DB779077 /* Pods_yessman_today.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yessman_today.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98214E9AAFCBDF0757F3B7F5 /* Pods-yessman-today.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yessman-today.release.xcconfig"; path = "Target Support Files/Pods-yessman-today/Pods-yessman-today.release.xcconfig"; sourceTree = "<group>"; };
+		B98FDD70187FB9DCFA14001D /* Pods-yesssman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yesssman.debug.xcconfig"; path = "Target Support Files/Pods-yesssman/Pods-yesssman.debug.xcconfig"; sourceTree = "<group>"; };
+		CBDB08D4BE8F2620AB8A2CF7 /* Pods_yesssman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yesssman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0DF45823AE27D8003B0E5B /* yesssman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yesssman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0DF45B23AE27D8003B0E5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC0DF45D23AE27D8003B0E5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +66,15 @@
 		DC0DF46423AE27D9003B0E5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC0DF46723AE27D9003B0E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC0DF46923AE27D9003B0E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0DF47323AE2805003B0E5B /* yessman-today.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "yessman-today.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0DF47523AE2805003B0E5B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		DC0DF47823AE2805003B0E5B /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		DC0DF47B23AE2805003B0E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		DC0DF47D23AE2805003B0E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC13B4D523AE29960034F4AF /* YesssService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesssService.swift; sourceTree = "<group>"; };
+		DC13B4D823AE35520034F4AF /* YesssResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesssResource.swift; sourceTree = "<group>"; };
+		DC13B4DA23AE68DA0034F4AF /* NSLayoutConstraint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Extensions.swift"; sourceTree = "<group>"; };
+		DC13B4DC23AE74B60034F4AF /* Credentials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Credentials.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +82,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7253BD73DF41B3FFADDFEE5C /* Pods_yesssman.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0DF47023AE2805003B0E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0DF47623AE2805003B0E5B /* NotificationCenter.framework in Frameworks */,
+				0B56586E2E9D644B521B935B /* Pods_yessman_today.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BAD33AD97726E5E2CA7B0954 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				397ECD5EFAD5D8B32DF087E8 /* Pods-yessman-today.debug.xcconfig */,
+				98214E9AAFCBDF0757F3B7F5 /* Pods-yessman-today.release.xcconfig */,
+				B98FDD70187FB9DCFA14001D /* Pods-yesssman.debug.xcconfig */,
+				17F4A2A4D9092F43324C0EAC /* Pods-yesssman.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DC0DF44F23AE27D8003B0E5B = {
 			isa = PBXGroup;
 			children = (
 				DC0DF45A23AE27D8003B0E5B /* yesssman */,
+				DC0DF47723AE2805003B0E5B /* yessman-today */,
+				DC0DF47423AE2805003B0E5B /* Frameworks */,
 				DC0DF45923AE27D8003B0E5B /* Products */,
+				BAD33AD97726E5E2CA7B0954 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				DC0DF45823AE27D8003B0E5B /* yesssman.app */,
+				DC0DF47323AE2805003B0E5B /* yessman-today.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,13 +132,17 @@
 		DC0DF45A23AE27D8003B0E5B /* yesssman */ = {
 			isa = PBXGroup;
 			children = (
+				DC13B4D423AE29840034F4AF /* shared */,
 				DC0DF45B23AE27D8003B0E5B /* AppDelegate.swift */,
+				DC13B4D823AE35520034F4AF /* YesssResource.swift */,
 				DC0DF45D23AE27D8003B0E5B /* SceneDelegate.swift */,
 				DC0DF45F23AE27D8003B0E5B /* ContentView.swift */,
 				DC0DF46123AE27D9003B0E5B /* Assets.xcassets */,
 				DC0DF46623AE27D9003B0E5B /* LaunchScreen.storyboard */,
 				DC0DF46923AE27D9003B0E5B /* Info.plist */,
 				DC0DF46323AE27D9003B0E5B /* Preview Content */,
+				DC13B4DA23AE68DA0034F4AF /* NSLayoutConstraint+Extensions.swift */,
+				DC13B4DC23AE74B60034F4AF /* Credentials.plist */,
 			);
 			path = yesssman;
 			sourceTree = "<group>";
@@ -75,6 +155,34 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DC0DF47423AE2805003B0E5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC0DF47523AE2805003B0E5B /* NotificationCenter.framework */,
+				822AD846DDE200D7DB779077 /* Pods_yessman_today.framework */,
+				CBDB08D4BE8F2620AB8A2CF7 /* Pods_yesssman.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC0DF47723AE2805003B0E5B /* yessman-today */ = {
+			isa = PBXGroup;
+			children = (
+				DC0DF47823AE2805003B0E5B /* TodayViewController.swift */,
+				DC0DF47A23AE2805003B0E5B /* MainInterface.storyboard */,
+				DC0DF47D23AE2805003B0E5B /* Info.plist */,
+			);
+			path = "yessman-today";
+			sourceTree = "<group>";
+		};
+		DC13B4D423AE29840034F4AF /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				DC13B4D523AE29960034F4AF /* YesssService.swift */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,18 +190,40 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC0DF46C23AE27D9003B0E5B /* Build configuration list for PBXNativeTarget "yesssman" */;
 			buildPhases = (
+				E930FE1E93BBD76A84369BC4 /* [CP] Check Pods Manifest.lock */,
 				DC0DF45423AE27D8003B0E5B /* Sources */,
 				DC0DF45523AE27D8003B0E5B /* Frameworks */,
 				DC0DF45623AE27D8003B0E5B /* Resources */,
+				DC0DF48423AE2805003B0E5B /* Embed App Extensions */,
+				A51C1E7DB785CF1036D3AB07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DC0DF47F23AE2805003B0E5B /* PBXTargetDependency */,
 			);
 			name = yesssman;
 			productName = yesssman;
 			productReference = DC0DF45823AE27D8003B0E5B /* yesssman.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DC0DF47223AE2805003B0E5B /* yessman-today */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0DF48123AE2805003B0E5B /* Build configuration list for PBXNativeTarget "yessman-today" */;
+			buildPhases = (
+				D7E6DA02DACEDEA5D0739FA7 /* [CP] Check Pods Manifest.lock */,
+				DC0DF46F23AE2805003B0E5B /* Sources */,
+				DC0DF47023AE2805003B0E5B /* Frameworks */,
+				DC0DF47123AE2805003B0E5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "yessman-today";
+			productName = "yessman-today";
+			productReference = DC0DF47323AE2805003B0E5B /* yessman-today.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -106,6 +236,9 @@
 				ORGANIZATIONNAME = scale;
 				TargetAttributes = {
 					DC0DF45723AE27D8003B0E5B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					DC0DF47223AE2805003B0E5B = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -124,6 +257,7 @@
 			projectRoot = "";
 			targets = (
 				DC0DF45723AE27D8003B0E5B /* yesssman */,
+				DC0DF47223AE2805003B0E5B /* yessman-today */,
 			);
 		};
 /* End PBXProject section */
@@ -134,25 +268,119 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC0DF46823AE27D9003B0E5B /* LaunchScreen.storyboard in Resources */,
+				DC13B4DD23AE74B60034F4AF /* Credentials.plist in Resources */,
 				DC0DF46523AE27D9003B0E5B /* Preview Assets.xcassets in Resources */,
 				DC0DF46223AE27D9003B0E5B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC0DF47123AE2805003B0E5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0DF47C23AE2805003B0E5B /* MainInterface.storyboard in Resources */,
+				DC13B4DE23AE74B60034F4AF /* Credentials.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A51C1E7DB785CF1036D3AB07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yesssman/Pods-yesssman-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yesssman/Pods-yesssman-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yesssman/Pods-yesssman-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7E6DA02DACEDEA5D0739FA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yessman-today-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E930FE1E93BBD76A84369BC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yesssman-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC0DF45423AE27D8003B0E5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC13B4D923AE35520034F4AF /* YesssResource.swift in Sources */,
 				DC0DF45C23AE27D8003B0E5B /* AppDelegate.swift in Sources */,
+				DC13B4D623AE29960034F4AF /* YesssService.swift in Sources */,
 				DC0DF45E23AE27D8003B0E5B /* SceneDelegate.swift in Sources */,
 				DC0DF46023AE27D8003B0E5B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC0DF46F23AE2805003B0E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0DF47923AE2805003B0E5B /* TodayViewController.swift in Sources */,
+				DC13B4DB23AE68DA0034F4AF /* NSLayoutConstraint+Extensions.swift in Sources */,
+				DC13B4D723AE29C00034F4AF /* YesssService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC0DF47F23AE2805003B0E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC0DF47223AE2805003B0E5B /* yessman-today */;
+			targetProxy = DC0DF47E23AE2805003B0E5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DC0DF46623AE27D9003B0E5B /* LaunchScreen.storyboard */ = {
@@ -161,6 +389,14 @@
 				DC0DF46723AE27D9003B0E5B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DC0DF47A23AE2805003B0E5B /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC0DF47B23AE2805003B0E5B /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,7 +518,9 @@
 		};
 		DC0DF46D23AE27D9003B0E5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B98FDD70187FB9DCFA14001D /* Pods-yesssman.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"yesssman/Preview Content\"";
@@ -302,7 +540,9 @@
 		};
 		DC0DF46E23AE27D9003B0E5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F4A2A4D9092F43324C0EAC /* Pods-yesssman.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"yesssman/Preview Content\"";
@@ -315,6 +555,46 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = at.scale.yesssman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC0DF48223AE2805003B0E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397ECD5EFAD5D8B32DF087E8 /* Pods-yessman-today.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9775XTAWZN;
+				INFOPLIST_FILE = "yessman-today/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "at.scale.yesssman.yessman-today";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC0DF48323AE2805003B0E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98214E9AAFCBDF0757F3B7F5 /* Pods-yessman-today.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9775XTAWZN;
+				INFOPLIST_FILE = "yessman-today/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "at.scale.yesssman.yessman-today";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -337,6 +617,15 @@
 			buildConfigurations = (
 				DC0DF46D23AE27D9003B0E5B /* Debug */,
 				DC0DF46E23AE27D9003B0E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0DF48123AE2805003B0E5B /* Build configuration list for PBXNativeTarget "yessman-today" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0DF48223AE2805003B0E5B /* Debug */,
+				DC0DF48323AE2805003B0E5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
