@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B56586E2E9D644B521B935B /* Pods_yessman_today.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822AD846DDE200D7DB779077 /* Pods_yessman_today.framework */; };
-		7253BD73DF41B3FFADDFEE5C /* Pods_yesssman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDB08D4BE8F2620AB8A2CF7 /* Pods_yesssman.framework */; };
+		D745539524FD95CD06A39F69 /* Pods_yesssman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4373192F2E99CFC8E8B5B86 /* Pods_yesssman.framework */; };
 		DC0DF45C23AE27D8003B0E5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0DF45B23AE27D8003B0E5B /* AppDelegate.swift */; };
 		DC0DF45E23AE27D8003B0E5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0DF45D23AE27D8003B0E5B /* SceneDelegate.swift */; };
 		DC0DF46023AE27D8003B0E5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0DF45F23AE27D8003B0E5B /* ContentView.swift */; };
 		DC0DF46223AE27D9003B0E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0DF46123AE27D9003B0E5B /* Assets.xcassets */; };
 		DC0DF46523AE27D9003B0E5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0DF46423AE27D9003B0E5B /* Preview Assets.xcassets */; };
 		DC0DF46823AE27D9003B0E5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0DF46623AE27D9003B0E5B /* LaunchScreen.storyboard */; };
-		DC0DF47623AE2805003B0E5B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0DF47523AE2805003B0E5B /* NotificationCenter.framework */; };
-		DC0DF47923AE2805003B0E5B /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0DF47823AE2805003B0E5B /* TodayViewController.swift */; };
-		DC0DF47C23AE2805003B0E5B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0DF47A23AE2805003B0E5B /* MainInterface.storyboard */; };
-		DC0DF48023AE2805003B0E5B /* yessman-today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC0DF47323AE2805003B0E5B /* yessman-today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DC13B4D623AE29960034F4AF /* YesssService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC13B4D523AE29960034F4AF /* YesssService.swift */; };
-		DC13B4D723AE29C00034F4AF /* YesssService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC13B4D523AE29960034F4AF /* YesssService.swift */; };
 		DC13B4D923AE35520034F4AF /* YesssResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC13B4D823AE35520034F4AF /* YesssResource.swift */; };
-		DC13B4DB23AE68DA0034F4AF /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC13B4DA23AE68DA0034F4AF /* NSLayoutConstraint+Extensions.swift */; };
 		DC13B4DD23AE74B60034F4AF /* Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC13B4DC23AE74B60034F4AF /* Credentials.plist */; };
-		DC13B4DE23AE74B60034F4AF /* Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC13B4DC23AE74B60034F4AF /* Credentials.plist */; };
+		DC4083452572FC4900F0D4B2 /* Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC13B4DC23AE74B60034F4AF /* Credentials.plist */; };
+		DC5E599C2572C380002648F6 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5E597B2572C1AD002648F6 /* WidgetKit.framework */; };
+		DC5E599D2572C380002648F6 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5E597D2572C1AD002648F6 /* SwiftUI.framework */; };
+		DC5E59A02572C380002648F6 /* yesssman_widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5E599F2572C380002648F6 /* yesssman_widget.swift */; };
+		DC5E59A22572C381002648F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5E59A12572C381002648F6 /* Assets.xcassets */; };
+		DC5E59A62572C381002648F6 /* yesssman-widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC5E599B2572C380002648F6 /* yesssman-widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DCEB32772572C4DA0097FCC2 /* YesssService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC13B4D523AE29960034F4AF /* YesssService.swift */; };
+		DDEA378A55BD981F0873B889 /* Pods_yesssman_widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1124C743690D5CF0E6DAA97F /* Pods_yesssman_widget.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DC0DF47E23AE2805003B0E5B /* PBXContainerItemProxy */ = {
+		DC5E59A42572C381002648F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC0DF45023AE27D8003B0E5B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC0DF47223AE2805003B0E5B;
-			remoteInfo = "yessman-today";
+			remoteGlobalIDString = DC5E599A2572C380002648F6;
+			remoteInfo = "yesssman-widgetExtension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -44,7 +44,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				DC0DF48023AE2805003B0E5B /* yessman-today.appex in Embed App Extensions */,
+				DC5E59A62572C381002648F6 /* yesssman-widget.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,12 +52,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		17F4A2A4D9092F43324C0EAC /* Pods-yesssman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yesssman.release.xcconfig"; path = "Target Support Files/Pods-yesssman/Pods-yesssman.release.xcconfig"; sourceTree = "<group>"; };
-		397ECD5EFAD5D8B32DF087E8 /* Pods-yessman-today.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yessman-today.debug.xcconfig"; path = "Target Support Files/Pods-yessman-today/Pods-yessman-today.debug.xcconfig"; sourceTree = "<group>"; };
-		822AD846DDE200D7DB779077 /* Pods_yessman_today.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yessman_today.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98214E9AAFCBDF0757F3B7F5 /* Pods-yessman-today.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yessman-today.release.xcconfig"; path = "Target Support Files/Pods-yessman-today/Pods-yessman-today.release.xcconfig"; sourceTree = "<group>"; };
-		B98FDD70187FB9DCFA14001D /* Pods-yesssman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yesssman.debug.xcconfig"; path = "Target Support Files/Pods-yesssman/Pods-yesssman.debug.xcconfig"; sourceTree = "<group>"; };
-		CBDB08D4BE8F2620AB8A2CF7 /* Pods_yesssman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yesssman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		055AD16772075631F0B374A9 /* Pods-yessman-today.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yessman-today.debug.xcconfig"; path = "Target Support Files/Pods-yessman-today/Pods-yessman-today.debug.xcconfig"; sourceTree = "<group>"; };
+		0E4D08D83B240097C5510422 /* Pods-yesssman-widget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yesssman-widget.release.xcconfig"; path = "Target Support Files/Pods-yesssman-widget/Pods-yesssman-widget.release.xcconfig"; sourceTree = "<group>"; };
+		1124C743690D5CF0E6DAA97F /* Pods_yesssman_widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yesssman_widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2E60577DBCD5043A76550F /* Pods-yessman-today.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yessman-today.release.xcconfig"; path = "Target Support Files/Pods-yessman-today/Pods-yessman-today.release.xcconfig"; sourceTree = "<group>"; };
+		22BDFEC9F5FAFB2BE01CAF65 /* Pods-yesssman-widget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yesssman-widget.debug.xcconfig"; path = "Target Support Files/Pods-yesssman-widget/Pods-yesssman-widget.debug.xcconfig"; sourceTree = "<group>"; };
+		2BEF48FCE31EE103FA5F69F0 /* Pods-yesssman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yesssman.debug.xcconfig"; path = "Target Support Files/Pods-yesssman/Pods-yesssman.debug.xcconfig"; sourceTree = "<group>"; };
+		9BB86777007B87E15B4C3153 /* Pods-yesssman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yesssman.release.xcconfig"; path = "Target Support Files/Pods-yesssman/Pods-yesssman.release.xcconfig"; sourceTree = "<group>"; };
 		DC0DF45823AE27D8003B0E5B /* yesssman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yesssman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0DF45B23AE27D8003B0E5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC0DF45D23AE27D8003B0E5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,15 +67,18 @@
 		DC0DF46423AE27D9003B0E5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC0DF46723AE27D9003B0E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC0DF46923AE27D9003B0E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC0DF47323AE2805003B0E5B /* yessman-today.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "yessman-today.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0DF47523AE2805003B0E5B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
-		DC0DF47823AE2805003B0E5B /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
-		DC0DF47B23AE2805003B0E5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		DC0DF47D23AE2805003B0E5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC13B4D523AE29960034F4AF /* YesssService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesssService.swift; sourceTree = "<group>"; };
 		DC13B4D823AE35520034F4AF /* YesssResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesssResource.swift; sourceTree = "<group>"; };
-		DC13B4DA23AE68DA0034F4AF /* NSLayoutConstraint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Extensions.swift"; sourceTree = "<group>"; };
 		DC13B4DC23AE74B60034F4AF /* Credentials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Credentials.plist; sourceTree = "<group>"; };
+		DC5E597B2572C1AD002648F6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DC5E597D2572C1AD002648F6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DC5E599B2572C380002648F6 /* yesssman-widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "yesssman-widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5E599F2572C380002648F6 /* yesssman_widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yesssman_widget.swift; sourceTree = "<group>"; };
+		DC5E59A12572C381002648F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC5E59A32572C381002648F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4373192F2E99CFC8E8B5B86 /* Pods_yesssman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yesssman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE18BEEB4ACD515895CD0076 /* Pods_yessman_today.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yessman_today.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,16 +86,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7253BD73DF41B3FFADDFEE5C /* Pods_yesssman.framework in Frameworks */,
+				D745539524FD95CD06A39F69 /* Pods_yesssman.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC0DF47023AE2805003B0E5B /* Frameworks */ = {
+		DC5E59982572C380002648F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC0DF47623AE2805003B0E5B /* NotificationCenter.framework in Frameworks */,
-				0B56586E2E9D644B521B935B /* Pods_yessman_today.framework in Frameworks */,
+				DC5E599D2572C380002648F6 /* SwiftUI.framework in Frameworks */,
+				DC5E599C2572C380002648F6 /* WidgetKit.framework in Frameworks */,
+				DDEA378A55BD981F0873B889 /* Pods_yesssman_widget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +106,12 @@
 		BAD33AD97726E5E2CA7B0954 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				397ECD5EFAD5D8B32DF087E8 /* Pods-yessman-today.debug.xcconfig */,
-				98214E9AAFCBDF0757F3B7F5 /* Pods-yessman-today.release.xcconfig */,
-				B98FDD70187FB9DCFA14001D /* Pods-yesssman.debug.xcconfig */,
-				17F4A2A4D9092F43324C0EAC /* Pods-yesssman.release.xcconfig */,
+				055AD16772075631F0B374A9 /* Pods-yessman-today.debug.xcconfig */,
+				1A2E60577DBCD5043A76550F /* Pods-yessman-today.release.xcconfig */,
+				2BEF48FCE31EE103FA5F69F0 /* Pods-yesssman.debug.xcconfig */,
+				9BB86777007B87E15B4C3153 /* Pods-yesssman.release.xcconfig */,
+				22BDFEC9F5FAFB2BE01CAF65 /* Pods-yesssman-widget.debug.xcconfig */,
+				0E4D08D83B240097C5510422 /* Pods-yesssman-widget.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -113,7 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				DC0DF45A23AE27D8003B0E5B /* yesssman */,
-				DC0DF47723AE2805003B0E5B /* yessman-today */,
+				DC5E599E2572C380002648F6 /* yesssman-widget */,
 				DC0DF47423AE2805003B0E5B /* Frameworks */,
 				DC0DF45923AE27D8003B0E5B /* Products */,
 				BAD33AD97726E5E2CA7B0954 /* Pods */,
@@ -124,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				DC0DF45823AE27D8003B0E5B /* yesssman.app */,
-				DC0DF47323AE2805003B0E5B /* yessman-today.appex */,
+				DC5E599B2572C380002648F6 /* yesssman-widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,7 +148,6 @@
 				DC0DF46623AE27D9003B0E5B /* LaunchScreen.storyboard */,
 				DC0DF46923AE27D9003B0E5B /* Info.plist */,
 				DC0DF46323AE27D9003B0E5B /* Preview Content */,
-				DC13B4DA23AE68DA0034F4AF /* NSLayoutConstraint+Extensions.swift */,
 				DC13B4DC23AE74B60034F4AF /* Credentials.plist */,
 			);
 			path = yesssman;
@@ -159,20 +165,13 @@
 			isa = PBXGroup;
 			children = (
 				DC0DF47523AE2805003B0E5B /* NotificationCenter.framework */,
-				822AD846DDE200D7DB779077 /* Pods_yessman_today.framework */,
-				CBDB08D4BE8F2620AB8A2CF7 /* Pods_yesssman.framework */,
+				EE18BEEB4ACD515895CD0076 /* Pods_yessman_today.framework */,
+				E4373192F2E99CFC8E8B5B86 /* Pods_yesssman.framework */,
+				DC5E597B2572C1AD002648F6 /* WidgetKit.framework */,
+				DC5E597D2572C1AD002648F6 /* SwiftUI.framework */,
+				1124C743690D5CF0E6DAA97F /* Pods_yesssman_widget.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DC0DF47723AE2805003B0E5B /* yessman-today */ = {
-			isa = PBXGroup;
-			children = (
-				DC0DF47823AE2805003B0E5B /* TodayViewController.swift */,
-				DC0DF47A23AE2805003B0E5B /* MainInterface.storyboard */,
-				DC0DF47D23AE2805003B0E5B /* Info.plist */,
-			);
-			path = "yessman-today";
 			sourceTree = "<group>";
 		};
 		DC13B4D423AE29840034F4AF /* shared */ = {
@@ -183,6 +182,16 @@
 			path = shared;
 			sourceTree = "<group>";
 		};
+		DC5E599E2572C380002648F6 /* yesssman-widget */ = {
+			isa = PBXGroup;
+			children = (
+				DC5E599F2572C380002648F6 /* yesssman_widget.swift */,
+				DC5E59A12572C381002648F6 /* Assets.xcassets */,
+				DC5E59A32572C381002648F6 /* Info.plist */,
+			);
+			path = "yesssman-widget";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,39 +199,39 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC0DF46C23AE27D9003B0E5B /* Build configuration list for PBXNativeTarget "yesssman" */;
 			buildPhases = (
-				E930FE1E93BBD76A84369BC4 /* [CP] Check Pods Manifest.lock */,
+				21F0F49F3BC60C23BB756CFD /* [CP] Check Pods Manifest.lock */,
 				DC0DF45423AE27D8003B0E5B /* Sources */,
 				DC0DF45523AE27D8003B0E5B /* Frameworks */,
 				DC0DF45623AE27D8003B0E5B /* Resources */,
 				DC0DF48423AE2805003B0E5B /* Embed App Extensions */,
-				A51C1E7DB785CF1036D3AB07 /* [CP] Embed Pods Frameworks */,
+				CB66B9EA8E79445E2B24EF3B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC0DF47F23AE2805003B0E5B /* PBXTargetDependency */,
+				DC5E59A52572C381002648F6 /* PBXTargetDependency */,
 			);
 			name = yesssman;
 			productName = yesssman;
 			productReference = DC0DF45823AE27D8003B0E5B /* yesssman.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DC0DF47223AE2805003B0E5B /* yessman-today */ = {
+		DC5E599A2572C380002648F6 /* yesssman-widget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC0DF48123AE2805003B0E5B /* Build configuration list for PBXNativeTarget "yessman-today" */;
+			buildConfigurationList = DC5E59A72572C381002648F6 /* Build configuration list for PBXNativeTarget "yesssman-widget" */;
 			buildPhases = (
-				D7E6DA02DACEDEA5D0739FA7 /* [CP] Check Pods Manifest.lock */,
-				DC0DF46F23AE2805003B0E5B /* Sources */,
-				DC0DF47023AE2805003B0E5B /* Frameworks */,
-				DC0DF47123AE2805003B0E5B /* Resources */,
+				BCCF53DC123D1A2FDFD95A02 /* [CP] Check Pods Manifest.lock */,
+				DC5E59972572C380002648F6 /* Sources */,
+				DC5E59982572C380002648F6 /* Frameworks */,
+				DC5E59992572C380002648F6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "yessman-today";
-			productName = "yessman-today";
-			productReference = DC0DF47323AE2805003B0E5B /* yessman-today.appex */;
+			name = "yesssman-widget";
+			productName = "yesssman-widgetExtension";
+			productReference = DC5E599B2572C380002648F6 /* yesssman-widget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -231,15 +240,15 @@
 		DC0DF45023AE27D8003B0E5B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
+				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = scale;
 				TargetAttributes = {
 					DC0DF45723AE27D8003B0E5B = {
 						CreatedOnToolsVersion = 11.3;
 					};
-					DC0DF47223AE2805003B0E5B = {
-						CreatedOnToolsVersion = 11.3;
+					DC5E599A2572C380002648F6 = {
+						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
@@ -257,7 +266,7 @@
 			projectRoot = "";
 			targets = (
 				DC0DF45723AE27D8003B0E5B /* yesssman */,
-				DC0DF47223AE2805003B0E5B /* yessman-today */,
+				DC5E599A2572C380002648F6 /* yesssman-widget */,
 			);
 		};
 /* End PBXProject section */
@@ -274,58 +283,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC0DF47123AE2805003B0E5B /* Resources */ = {
+		DC5E59992572C380002648F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC0DF47C23AE2805003B0E5B /* MainInterface.storyboard in Resources */,
-				DC13B4DE23AE74B60034F4AF /* Credentials.plist in Resources */,
+				DC5E59A22572C381002648F6 /* Assets.xcassets in Resources */,
+				DC4083452572FC4900F0D4B2 /* Credentials.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A51C1E7DB785CF1036D3AB07 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-yesssman/Pods-yesssman-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-yesssman/Pods-yesssman-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yesssman/Pods-yesssman-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D7E6DA02DACEDEA5D0739FA7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-yessman-today-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E930FE1E93BBD76A84369BC4 /* [CP] Check Pods Manifest.lock */ = {
+		21F0F49F3BC60C23BB756CFD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,6 +317,45 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BCCF53DC123D1A2FDFD95A02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yesssman-widget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB66B9EA8E79445E2B24EF3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yesssman/Pods-yesssman-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yesssman/Pods-yesssman-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yesssman/Pods-yesssman-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -362,23 +371,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC0DF46F23AE2805003B0E5B /* Sources */ = {
+		DC5E59972572C380002648F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC0DF47923AE2805003B0E5B /* TodayViewController.swift in Sources */,
-				DC13B4DB23AE68DA0034F4AF /* NSLayoutConstraint+Extensions.swift in Sources */,
-				DC13B4D723AE29C00034F4AF /* YesssService.swift in Sources */,
+				DC5E59A02572C380002648F6 /* yesssman_widget.swift in Sources */,
+				DCEB32772572C4DA0097FCC2 /* YesssService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DC0DF47F23AE2805003B0E5B /* PBXTargetDependency */ = {
+		DC5E59A52572C381002648F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC0DF47223AE2805003B0E5B /* yessman-today */;
-			targetProxy = DC0DF47E23AE2805003B0E5B /* PBXContainerItemProxy */;
+			target = DC5E599A2572C380002648F6 /* yesssman-widget */;
+			targetProxy = DC5E59A42572C381002648F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -389,14 +397,6 @@
 				DC0DF46723AE27D9003B0E5B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		DC0DF47A23AE2805003B0E5B /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC0DF47B23AE2805003B0E5B /* Base */,
-			);
-			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -452,7 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -506,7 +506,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -518,15 +518,17 @@
 		};
 		DC0DF46D23AE27D9003B0E5B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B98FDD70187FB9DCFA14001D /* Pods-yesssman.debug.xcconfig */;
+			baseConfigurationReference = 2BEF48FCE31EE103FA5F69F0 /* Pods-yesssman.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"yesssman/Preview Content\"";
-				DEVELOPMENT_TEAM = 9775XTAWZN;
+				DEVELOPMENT_TEAM = 2U96B8HYYU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = yesssman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -540,15 +542,17 @@
 		};
 		DC0DF46E23AE27D9003B0E5B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17F4A2A4D9092F43324C0EAC /* Pods-yesssman.release.xcconfig */;
+			baseConfigurationReference = 9BB86777007B87E15B4C3153 /* Pods-yesssman.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"yesssman/Preview Content\"";
-				DEVELOPMENT_TEAM = 9775XTAWZN;
+				DEVELOPMENT_TEAM = 2U96B8HYYU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = yesssman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -560,19 +564,22 @@
 			};
 			name = Release;
 		};
-		DC0DF48223AE2805003B0E5B /* Debug */ = {
+		DC5E59A82572C381002648F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 397ECD5EFAD5D8B32DF087E8 /* Pods-yessman-today.debug.xcconfig */;
+			baseConfigurationReference = 22BDFEC9F5FAFB2BE01CAF65 /* Pods-yesssman-widget.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9775XTAWZN;
-				INFOPLIST_FILE = "yessman-today/Info.plist";
+				DEVELOPMENT_TEAM = 2U96B8HYYU;
+				INFOPLIST_FILE = "yesssman-widget/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "at.scale.yesssman.yessman-today";
+				PRODUCT_BUNDLE_IDENTIFIER = "at.scale.yesssman.yesssman-widget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -580,19 +587,22 @@
 			};
 			name = Debug;
 		};
-		DC0DF48323AE2805003B0E5B /* Release */ = {
+		DC5E59A92572C381002648F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98214E9AAFCBDF0757F3B7F5 /* Pods-yessman-today.release.xcconfig */;
+			baseConfigurationReference = 0E4D08D83B240097C5510422 /* Pods-yesssman-widget.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9775XTAWZN;
-				INFOPLIST_FILE = "yessman-today/Info.plist";
+				DEVELOPMENT_TEAM = 2U96B8HYYU;
+				INFOPLIST_FILE = "yesssman-widget/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "at.scale.yesssman.yessman-today";
+				PRODUCT_BUNDLE_IDENTIFIER = "at.scale.yesssman.yesssman-widget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -621,11 +631,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC0DF48123AE2805003B0E5B /* Build configuration list for PBXNativeTarget "yessman-today" */ = {
+		DC5E59A72572C381002648F6 /* Build configuration list for PBXNativeTarget "yesssman-widget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC0DF48223AE2805003B0E5B /* Debug */,
-				DC0DF48323AE2805003B0E5B /* Release */,
+				DC5E59A82572C381002648F6 /* Debug */,
+				DC5E59A92572C381002648F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

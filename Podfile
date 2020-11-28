@@ -1,10 +1,10 @@
-platform :ios, '13.0'
+platform :ios, '14.2'
 
 def shared_pods
   pod 'SwiftSoup'
 end
 
-target 'yessman-today' do
+target 'yesssman-widget' do
   use_frameworks!
 
   shared_pods

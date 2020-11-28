@@ -5,7 +5,7 @@
 //  Created by Felix on 21.12.19.
 //  Copyright © 2019 scale. All rights reserved.
 //
-
+import WidgetKit
 import UIKit
 
 @UIApplicationMain

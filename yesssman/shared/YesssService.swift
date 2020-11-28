@@ -14,22 +14,29 @@ struct QuotaData {
     var total: Int
 }
 
-private func getHtml(completionHandler: @escaping (String) -> Void) {
+private func getHtml(completionHandler: @escaping (String?) -> Void) {
     let credentials = NSDictionary(contentsOfFile: Bundle.main.path(forResource: "Credentials", ofType: "plist")!)!
     
     let username = credentials["login_rufnummer"]!
     let password = credentials["login_passwort"]!
 
     let Url = String(format: "https://www.yesss.at/kontomanager.at/index.php")
-    guard let serviceUrl = URL(string: Url) else { return }
+    guard let serviceUrl = URL(string: Url) else {
+        completionHandler(nil)
+        return
+    }
+    
     var request = URLRequest(url: serviceUrl)
     request.httpMethod = "POST"
     request.httpBody = "login_rufnummer=\(username)&login_passwort=\(password)".data(using: String.Encoding.utf8)!
 
     let session = URLSession.shared
+    
     session.dataTask(with: request) { data, _, _ in
         if let data = data {
             completionHandler(String(data: data, encoding: .utf8)!)
+        } else {
+            completionHandler(nil)
         }
     }.resume()
 }
@@ -37,8 +44,13 @@ private func getHtml(completionHandler: @escaping (String) -> Void) {
 class YesssService {
     func getCurrentQuota(completionHandler: @escaping ((QuotaData?) -> Void)) {
         getHtml {
+            guard let str = $0 else {
+                completionHandler(nil)
+                return
+            }
+            
             do {
-                let doc = try SwiftSoup.parse($0)
+                let doc = try SwiftSoup.parse(str)
 
                 guard
                     let row = try doc
