@@ -15,13 +15,17 @@ struct QuotaData {
 }
 
 private func getHtml(completionHandler: @escaping (String?) -> Void) {
-    let credentials = NSDictionary(contentsOfFile: Bundle.main.path(forResource: "Credentials", ofType: "plist")!)!
+//    let credentials = NSDictionary(contentsOfFile: Bundle.main.path(forResource: "Credentials", ofType: "plist")!)!
     
-    let username = credentials["login_rufnummer"]!
-    let password = credentials["login_passwort"]!
-
+//    let username = credentials["login_rufnummer"]!
+//    let password = credentials["login_passwort"]!
     let Url = String(format: "https://www.yesss.at/kontomanager.at/index.php")
-    guard let serviceUrl = URL(string: Url) else {
+
+    guard
+        let serviceUrl = URL(string: Url),
+        let username = UserDefaults(suiteName: "group.at.scale.yesssman")?.string(forKey: "phoneNumber"),
+        let password = UserDefaults(suiteName: "group.at.scale.yesssman")?.string(forKey: "password")
+    else {
         completionHandler(nil)
         return
     }

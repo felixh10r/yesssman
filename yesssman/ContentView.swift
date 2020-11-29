@@ -9,25 +9,24 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var resource = YesssResource()
-
+//    @ObservedObject var resource = YesssResource()
+    @State private var phoneNumber: String = ""
+    @State private var password: String = ""
+    
     var body: some View {
-        VStack {
-            if resource.data != nil {
-                Text("\(resource.data!.free) / \(resource.data!.total)")
+        NavigationView {
+            Form {
+                TextField("Phone number", text: $phoneNumber)
+                SecureField("Password", text: $password)
+                Button(action: {
+                    UserDefaults(suiteName: "group.at.scale.yesssman")!.set(phoneNumber, forKey: "phoneNumber")
+                    UserDefaults(suiteName: "group.at.scale.yesssman")!.set(password, forKey: "password")
+                }) {
+                    Text("Login")
+                }
             }
+            .navigationBarTitle("Login")
         }
-        .frame(
-            minWidth: 0,
-            maxWidth: .infinity,
-            minHeight: 0,
-            maxHeight: .infinity,
-            alignment: .center
-        )
-        .background(
-            Color("primary")
-        )
-        .edgesIgnoringSafeArea(.all)
     }
 }
 

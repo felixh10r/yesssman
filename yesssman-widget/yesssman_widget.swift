@@ -54,15 +54,22 @@ struct SimpleEntry: TimelineEntry {
     let data: QuotaData?
 }
 
+private let ONE_MILLION = 1_000_000
+
 struct yesssman_widgetEntryView : View {
     var entry: Provider.Entry
 
     var body: some View {
-        let free = entry.data?.free ?? 50_000
-        let total = entry.data?.total ?? 100_000
+        let free = entry.data?.free ?? 100
+        let total = entry.data?.total ?? 100
         let used = total - free
         let ratio = CGFloat(used) / CGFloat(total)
                         
+        let bcf = ByteCountFormatter()
+        
+        let freeText = bcf.string(fromByteCount: Int64(used * ONE_MILLION))
+        let totalText = bcf.string(fromByteCount: Int64(total * ONE_MILLION))
+       
         ZStack {
             GeometryReader { geometry in
                 Rectangle()
@@ -73,7 +80,7 @@ struct yesssman_widgetEntryView : View {
                     .foregroundColor(
                         Color(UIColor.systemGreen).opacity(0.6)
                     )
-                    
+
 
                 Rectangle()
                     .frame(
@@ -81,6 +88,20 @@ struct yesssman_widgetEntryView : View {
                         height: geometry.size.height
                     )
                     .foregroundColor(Color(UIColor.systemRed).opacity(0.8))
+                
+                ZStack(alignment: .center) {
+                    Text("\(freeText) / \(totalText)")
+                        .font(.caption)
+                        .padding(.all, 7)
+                        .foregroundColor(Color(UIColor.darkText))
+                        .background(Color(UIColor.systemBackground).opacity(0.45))
+                        .cornerRadius(5)
+                }
+                .offset(x: 0, y: geometry.size.height / 2 - 24)
+                .frame(
+                    width: geometry.size.width,
+                    height: geometry.size.height
+                )
             }
         }
         .foregroundColor(Color(UIColor.systemFill).opacity(0.1))

@@ -77,6 +77,8 @@
 		DC5E599F2572C380002648F6 /* yesssman_widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yesssman_widget.swift; sourceTree = "<group>"; };
 		DC5E59A12572C381002648F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC5E59A32572C381002648F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5F866025738DA50074C5CE /* yesssman.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = yesssman.entitlements; sourceTree = "<group>"; };
+		DC5F866125738DCC0074C5CE /* yesssman-widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "yesssman-widget.entitlements"; sourceTree = "<group>"; };
 		E4373192F2E99CFC8E8B5B86 /* Pods_yesssman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yesssman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE18BEEB4ACD515895CD0076 /* Pods_yessman_today.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yessman_today.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -139,6 +141,7 @@
 		DC0DF45A23AE27D8003B0E5B /* yesssman */ = {
 			isa = PBXGroup;
 			children = (
+				DC5F866025738DA50074C5CE /* yesssman.entitlements */,
 				DC13B4D423AE29840034F4AF /* shared */,
 				DC0DF45B23AE27D8003B0E5B /* AppDelegate.swift */,
 				DC13B4D823AE35520034F4AF /* YesssResource.swift */,
@@ -185,6 +188,7 @@
 		DC5E599E2572C380002648F6 /* yesssman-widget */ = {
 			isa = PBXGroup;
 			children = (
+				DC5F866125738DCC0074C5CE /* yesssman-widget.entitlements */,
 				DC5E599F2572C380002648F6 /* yesssman_widget.swift */,
 				DC5E59A12572C381002648F6 /* Assets.xcassets */,
 				DC5E59A32572C381002648F6 /* Info.plist */,
@@ -522,6 +526,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = yesssman/yesssman.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"yesssman/Preview Content\"";
@@ -546,6 +551,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = yesssman/yesssman.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"yesssman/Preview Content\"";
@@ -571,6 +577,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = "yesssman-widget/yesssman-widget.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2U96B8HYYU;
 				INFOPLIST_FILE = "yesssman-widget/Info.plist";
@@ -594,6 +601,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = "yesssman-widget/yesssman-widget.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2U96B8HYYU;
 				INFOPLIST_FILE = "yesssman-widget/Info.plist";
